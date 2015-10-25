@@ -8,7 +8,19 @@
     tools:context="com.zeroq.activities.BillingActivity">
 
     <TextView
+        android:text="Your total bill is"
+        android:textSize="30sp"
+        android:layout_above="@+id/ab_total"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
         android:id="@+id/ab_total"
+        android:textSize="100sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

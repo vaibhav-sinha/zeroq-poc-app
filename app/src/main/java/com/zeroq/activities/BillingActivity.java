@@ -19,6 +19,6 @@ public class BillingActivity extends BaseActivity {
         total = (TextView) findViewById(R.id.ab_total);
 
         Double totalAmount = getIntent().getDoubleExtra("total", 0);
-        total.setText("Total amount to be paid by you is " + totalAmount);
+        total.setText(totalAmount.toString());
     }
 }
