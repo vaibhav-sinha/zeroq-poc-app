@@ -1,0 +1,17 @@
+package com.zeroq.models;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
+
+/**
+ * Created by user-1 on 25/10/15.
+ */
+@Data
+public class ShoppingResponseData {
+
+    @SerializedName(value = "shopping_id")
+    private String shoppingId;
+
+    private String status;
+}
